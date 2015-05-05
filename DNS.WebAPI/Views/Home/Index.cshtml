@@ -1,0 +1,8 @@
+﻿@Html.Action("PlayerModule", "Module")
+<div class="container">
+    <div id="content" class="row">
+        @Html.Action("CategoryListModule","Module")
+        @Html.Action("BroadcastScheduleModule", "Module")
+    </div><!-- end #content -->
+</div>
+@Html.Action("BibleScheduleModule", "Module")
